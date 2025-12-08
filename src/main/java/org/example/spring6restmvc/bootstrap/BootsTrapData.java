@@ -56,7 +56,7 @@ public class BootsTrapData implements CommandLineRunner {
             Beer beer3 = Beer.builder()
                     .beerName("Sunshine City")
                     .beerStyle(BeerStyle.IPA)
-                    .upc("12356")
+                    .upc("123567")
                     .price(new BigDecimal("13.99"))
                     .quantityOnHand(144)
                     .createdDate(LocalDateTime.now())
